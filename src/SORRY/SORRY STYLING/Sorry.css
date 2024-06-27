@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+.heading{
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 1em;
+    border: none;
+    border-bottom: solid 4px #3c529c;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 80%;
+        max-height: 80%;
+    }
+  }
